@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project E60</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+  </head>
+  <body onload="slider()">
+    <div class="banner">
+        <div class="slider">
+          <img src="./img/bg1.jpg" id="slideImg">
+        </div>
+        <div class="overlay">
+            <div class="navbar">
+              <div class="logo">
+                <img src="./img/logoE60_2.png" alt="">
+              </div>
+              <div class="menu-icons">
+                <img src="./img/search.png">
+                <img src="./img/org.png">
+                <img src="./img/setting.png">
+              </div>
+
+            </div>
+            <div class="content">
+              <h1>WELCOME TO E60 TEAM</h1>
+              <H3>DTS BATCH 2 2020 <br> HTML, CSS, JAVASCRIPT</H3>
+
+              <div>
+                <button type="button">PROFIL TEAM</button>
+                <button type="button" class="btn-2">CONTACT</button>
+              </div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+      var slideImg = document.getElementById("slideImg");
+      
+      var images = new Array(
+        "./img/bg1.jpg",
+        "./img/bg2.jpg",
+        "./img/bg3.jpg",
+        "./img/bg4.jpg",
+      );
+
+      var len = images.length;
+      var i = 0;
+
+      function slider(){
+        if(i > len-1){
+          i = 0;
+        }
+        slideImg.src = images[i];
+        i++;
+        setTimeout('slider()',3000);
+      }
+
+    </script>
+
+<div class="team-section">
+  <div class="inner-width">
+    <h1>Meet Our Team</h1>
+    <div class="pers">
+
+      <div class="pe">
+        <img src="./img/members/ibnu.png" alt="">
+        <div class="p-name">Ibnu Adam Syah</div>
+        <div class="p-des">Leader Of The Team E60</div>
+        <div class="p-des2">
+          <div class="border-content"></div>
+            <br>
+            <p>I really interested with Web Programming, 
+            like HTML, CSS, JavaScript, and SQL are exciting for me. 
+            I am a fast learner and always motivate to upgrade my skills, 
+            and I will be happy to implement and sharing about it.</p>
+        </div>
+        <div class="p-sm">
+          <a href="https://www.facebook.com/ibnuadamsy/" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/ibnuadamsy?s=09" target="_blank"> <i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/ibnuadamsy/" target="_blank"> <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="pe">
+        <img src="./img/members/henri.png" alt="">
+        <div class="p-name">Henri</div>
+        <div class="p-des">Members Of The Team E60</div>
+        <div class="p-des2">
+          <div class="border-content"></div>
+          <br>
+          <p>I graduated from Vocational High School Information and Communication Technology. 
+            I just wanna try too make more income from programing and design Job (Just like become an freelancer).</p>
+        </div>
+        <div class="p-sm">
+          <a href="https://www.facebook.com/H.Z.H.27" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/WR06843600" target="_blank"> <i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/riteam.id.games" target="_blank"> <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+
+      <div class="pe">
+        <img src="./img/members/krisman.png">
+        <div class="p-name">Krisman</div>
+        <div class="p-des">Members Of The Team E60</div>
+        <div class="p-des2">
+          <div class="border-content"></div>
+          <br>
+          <p>I currently work in one of the ministries in Indonesia. I like sports, listening to music, playing games, 
+            and programming. Programming learning is fun for me.</p>
+        </div>
+        <div class="p-sm">
+          <a href="https://www.facebook.com/krisman.gea" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+          <a href="https://www.instagram.com/krisman_gea/" target="_blank"> <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+        
+      <div class="pe">
+        <img src="./img/members/isabella.png" alt="">
+        <div class="p-name">Isabella</div>
+        <div class="p-des">Members Of The Team E60</div>
+        <div class="p-des2">
+          <div class="border-content"></div>
+          <br>
+          <p>I graduated from Indraprasta University Bachelor degree of Computer Science. 
+            I am adaptable, hardworker, detail oriented and also eager to learn and know something new. 
+            I have experience in Administration and Tour Guide.</p>
+        </div>
+        <div class="p-sm">
+          <a href="https://facebook.com/bellaisaabel" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com/bellaisaabel" target="_blank"> <i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/bellaisaabel" target="_blank"> <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+  
+      <div class="pe">
+        <img src="./img/members/julio.png" alt="">
+        <div class="p-name">Julio</div>
+        <div class="p-des">Members Of The Team E60</div>
+        <div class="p-des2">
+          <div class="border-content"></div>
+          <br>
+          <p> i'm fresh graduate of PKN STAN. i work as civil servants at ministry of finances. 
+            I really interest with IT and want to have knowledge about programming to support my career.</p>
+        </div>
+        <div class="p-sm">
+          <a href="https://facebook.com/julioborizkiyahoo.co.id" target="_blank"> <i class="fab fa-facebook-f"></i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/juliomaulid" target="_blank"> <i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer>
+      <div class="footer-container">
+          <div class="left-col">
+              <img src="./img/logoE60.png" alt="" class="logo">
+              <div class="social-media">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+              <p class="rights-text">&#169 2020 Created By Team E60.Codes All Rights Reserved</p>
+          </div>
+
+          <div class="right-col">
+              <h1>Subscribes Our Team.</h1>
+              <div class="border"></div>
+              <br>
+              <p>Get Our Latest Profile.</p>
+              <br>
+              <form action="" class="newsletter-form">
+                  <input type="text" class="txtb" placeholder="Insert your email">
+                  <button type="submit" class="btn" href="#">Submit</button>
+              </form>
+          </div>
+      </div>
+  </footer>
+</body>
+</html>
